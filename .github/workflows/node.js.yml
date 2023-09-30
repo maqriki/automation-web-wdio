@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install Chromium
-        run: sudo apt-get install chromium-browser
-      
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
