@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 30 02:38:09 GMT 2023","Sat Sep 30 02:38:13 GMT 2023","3965","","GreenKart E-Commerce","","","","As a user, I can search item",""
+"passed","Sat Sep 30 02:38:16 GMT 2023","Sat Sep 30 02:39:01 GMT 2023","45111","","GreenKart E-Commerce","","","","As a user, I can completes a purchase on GreenKart",""
+"passed","Sat Sep 30 02:37:38 GMT 2023","Sat Sep 30 02:37:46 GMT 2023","8098","","GreenKart E-Commerce","","","","As a user, I cannot checkout if terms and conditions are unchecked",""
+"passed","Sat Sep 30 02:37:22 GMT 2023","Sat Sep 30 02:37:35 GMT 2023","13034","","GreenKart E-Commerce","","","","As a user, I get a warning for an invalid promo code",""
+"passed","Sat Sep 30 02:37:59 GMT 2023","Sat Sep 30 02:38:06 GMT 2023","7110","","GreenKart E-Commerce","","","","As a user, I cannot decreasing quantity below 1 using the minus button item",""
+"passed","Sat Sep 30 02:37:50 GMT 2023","Sat Sep 30 02:37:57 GMT 2023","7155","","GreenKart E-Commerce","","","","As a user, I can adding an item to the cart",""
