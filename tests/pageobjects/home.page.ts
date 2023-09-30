@@ -58,7 +58,9 @@ class HomePage {
     }
 
     public async setQuantity(item:string, quantity: string) {
+        await browser.pause(1500);
         await $(`//h4[contains(text(),'${item}')]/following-sibling::*//input`).clearValue();
+        await browser.pause(1500);
         await $(`//h4[contains(text(),'${item}')]/following-sibling::*//input`).setValue(quantity);
     }
 
@@ -86,11 +88,11 @@ class HomePage {
     
     public async searchSetQtyAddToCart(item:string, quantity:string) {
         await this.search(item);
-        await browser.pause(1000);
+        await browser.pause(1500);
         await this.setQuantity(item, quantity);
-        await browser.pause(1000);
+        await browser.pause(1500);
         await this.tapAddToCart(item);
-        await browser.pause(1000);
+        await browser.pause(1500);
     }
 }
 

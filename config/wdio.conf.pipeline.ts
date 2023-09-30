@@ -60,7 +60,7 @@ export const config: Options.Testrunner = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        maxInstances: 3,
+        maxInstances: 1,
         browserName: 'chrome',
         acceptInsecureCerts: true,
         'goog:chromeOptions': { 
