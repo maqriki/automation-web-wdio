@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test:web": "wdio run ./config/wdio.conf.ts",
-    "test:pipeline": "npx wdio run ./config/wdio.conf.ts",
+    "test:pipeline": "npx wdio run ./config/wdio.conf.pipeline.ts",
     "report:allure": "allure generate --clean ./allure-results && allure open"
   }
 }
