@@ -1,7 +1,7 @@
 
-# Automation test API
+# Automation test Web
 
-automation test API using WDIO
+automation test Web using WDIO
 
 This is repository for automation WEB testing WDIO from https://rahulshettyacademy.com/seleniumPractise/#/
 
